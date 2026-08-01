@@ -1,0 +1,619 @@
+{
+  "users": [
+    {
+      "id": "ae2a7da6-f6a5-4cd9-b4b4-510ef7dec003",
+      "name": "Charanya Karne",
+      "email": "charanya@example.com",
+      "role": "candidate",
+      "passwordHash": "$2a$10$LGxocoyznGbHUvVLcu.3suqI.smDRvf32rf6HicDqEmGjx475kjc2",
+      "createdAt": 1785598591509
+    },
+    {
+      "id": "5a24b678-9dd2-45c4-9c95-c5691021d75a",
+      "name": "Charanya",
+      "email": "charanyak@example.com",
+      "role": "employer",
+      "passwordHash": "$2a$10$d.Pc45x3puj2Fg/l1DW.9eQ.Tipo4taXN5VfFHcMeXwYTlSavWCuy",
+      "createdAt": 1785598752812
+    }
+  ],
+  "jobs": [
+    {
+      "id": "4a8d4353-1968-415e-a19c-9e1a20f5c03c",
+      "title": "Data Analyst Intern",
+      "company": "KC Group",
+      "location": "Hyderabad",
+      "type": "Internship",
+      "salary": "₹50,000/month",
+      "salaryMin": 500,
+      "salaryMax": 500,
+      "shift": "Day",
+      "vacancies": 4,
+      "tags": [
+        "SQL",
+        "Data Visualization",
+        "Python or R",
+        "Excel"
+      ],
+      "apply": "charanyak@example.com",
+      "description": "Cleaning and preprocessing raw data from various sources to ensure accuracy. Performing statistical analysis and data mining to identify patterns and business opportunities.",
+      "postedAt": 1785599022086,
+      "postedById": "5a24b678-9dd2-45c4-9c95-c5691021d75a",
+      "postedByName": "Charanya"
+    },
+    {
+      "id": "seed-1",
+      "title": "Senior Backend Engineer",
+      "company": "Harborlight Systems",
+      "location": "Remote (US)",
+      "type": "Full-time",
+      "salary": "$150k–$190k",
+      "salaryMin": 150,
+      "salaryMax": 190,
+      "shift": "Flexible",
+      "vacancies": 3,
+      "tags": [
+        "backend",
+        "go",
+        "distributed-systems"
+      ],
+      "apply": "careers@harborlight.example",
+      "description": "Own the payments ledger service. Go, Postgres, and a healthy respect for idempotency keys.",
+      "postedAt": 1785574112884,
+      "postedById": "seed-employer",
+      "postedByName": "Demo Employer"
+    },
+    {
+      "id": "seed-2",
+      "title": "Product Designer",
+      "company": "Fernweh Travel Co.",
+      "location": "Lisbon, PT (Hybrid)",
+      "type": "Full-time",
+      "salary": "€65k–€80k",
+      "salaryMin": 65,
+      "salaryMax": 80,
+      "shift": "Day",
+      "vacancies": 1,
+      "tags": [
+        "design",
+        "figma",
+        "b2c"
+      ],
+      "apply": "https://fernweh.example/careers/product-designer",
+      "description": "Design the booking flow used by ~2M travelers a year.",
+      "postedAt": 1785559712884,
+      "postedById": "seed-employer",
+      "postedByName": "Demo Employer"
+    },
+    {
+      "id": "seed-3",
+      "title": "Data Analyst (Contract, 3mo)",
+      "company": "Northline Freight",
+      "location": "Remote (EU)",
+      "type": "Contract",
+      "salary": "$60/hr",
+      "salaryMin": null,
+      "salaryMax": null,
+      "shift": "Flexible",
+      "vacancies": 2,
+      "tags": [
+        "sql",
+        "analytics",
+        "logistics"
+      ],
+      "apply": "jobs@northline.example",
+      "description": "Build a route-efficiency dashboard from raw telematics data.",
+      "postedAt": 1785498512884,
+      "postedById": "seed-employer",
+      "postedByName": "Demo Employer"
+    },
+    {
+      "id": "seed-4",
+      "title": "Support Engineer (Night Shift)",
+      "company": "Cascade Cloud",
+      "location": "Remote (Any)",
+      "type": "Part-time",
+      "salary": "$40k–$50k",
+      "salaryMin": 40,
+      "salaryMax": 50,
+      "shift": "Night",
+      "vacancies": 4,
+      "tags": [
+        "support",
+        "linux",
+        "customer-facing"
+      ],
+      "apply": "https://cascadecloud.example/jobs/support-night",
+      "description": "Cover the 10pm–4am UTC window for a small infra team.",
+      "postedAt": 1785469712884,
+      "postedById": "seed-employer",
+      "postedByName": "Demo Employer"
+    },
+    {
+      "id": "seed-5",
+      "title": "Machine Learning Engineer",
+      "company": "Ridgeline Analytics",
+      "location": "Austin, TX (Hybrid)",
+      "type": "Full-time",
+      "salary": "$140k–$175k",
+      "salaryMin": 140,
+      "salaryMax": 175,
+      "shift": "Flexible",
+      "vacancies": 3,
+      "tags": [
+        "ml",
+        "python",
+        "pytorch"
+      ],
+      "apply": "careers@ridgeline.example",
+      "description": "Build forecasting models used across the supply chain team.",
+      "postedAt": 1785566912884,
+      "postedById": "seed-employer",
+      "postedByName": "Demo Employer"
+    },
+    {
+      "id": "seed-6",
+      "title": "Registered Nurse",
+      "company": "BrightPath Health",
+      "location": "Chicago, IL",
+      "type": "Full-time",
+      "salary": "$75k–$95k",
+      "salaryMin": 75,
+      "salaryMax": 95,
+      "shift": "Rotating",
+      "vacancies": 10,
+      "tags": [
+        "healthcare",
+        "nursing",
+        "patient-care"
+      ],
+      "apply": "hr@brightpath.example",
+      "description": "Join a 40-bed med-surg unit with a strong nurse-to-patient ratio.",
+      "postedAt": 1785556112884,
+      "postedById": "seed-employer",
+      "postedByName": "Demo Employer"
+    },
+    {
+      "id": "seed-7",
+      "title": "3D Environment Artist",
+      "company": "Loomcraft Studios",
+      "location": "Remote (Global)",
+      "type": "Contract",
+      "salary": "$50/hr",
+      "salaryMin": null,
+      "salaryMax": null,
+      "shift": "Flexible",
+      "vacancies": 2,
+      "tags": [
+        "3d",
+        "blender",
+        "game-art"
+      ],
+      "apply": "jobs@loomcraft.example",
+      "description": "Build modular environment kits for a narrative-driven indie title.",
+      "postedAt": 1785545312884,
+      "postedById": "seed-employer",
+      "postedByName": "Demo Employer"
+    },
+    {
+      "id": "seed-8",
+      "title": "Store Associate",
+      "company": "Summit Retail Group",
+      "location": "Denver, CO",
+      "type": "Part-time",
+      "salary": "$18/hr",
+      "salaryMin": null,
+      "salaryMax": null,
+      "shift": "Day",
+      "vacancies": 15,
+      "tags": [
+        "retail",
+        "customer-service"
+      ],
+      "apply": "https://summitretail.example/careers",
+      "description": "Help customers on the floor and keep the store looking sharp.",
+      "postedAt": 1785534512884,
+      "postedById": "seed-employer",
+      "postedByName": "Demo Employer"
+    },
+    {
+      "id": "seed-9",
+      "title": "Warehouse Supervisor",
+      "company": "Vantage Logistics",
+      "location": "Newark, NJ",
+      "type": "Full-time",
+      "salary": "$58k–$68k",
+      "salaryMin": 58,
+      "salaryMax": 68,
+      "shift": "Night",
+      "vacancies": 4,
+      "tags": [
+        "logistics",
+        "warehouse",
+        "ops"
+      ],
+      "apply": "careers@vantagelogistics.example",
+      "description": "Run the overnight shift for a 200k sq ft distribution center.",
+      "postedAt": 1785527312884,
+      "postedById": "seed-employer",
+      "postedByName": "Demo Employer"
+    },
+    {
+      "id": "seed-10",
+      "title": "Paralegal",
+      "company": "Clearwater Legal",
+      "location": "Boston, MA (Hybrid)",
+      "type": "Full-time",
+      "salary": "$55k–$70k",
+      "salaryMin": 55,
+      "salaryMax": 70,
+      "shift": "Day",
+      "vacancies": 2,
+      "tags": [
+        "legal",
+        "paralegal"
+      ],
+      "apply": "hiring@clearwaterlegal.example",
+      "description": "Support a small commercial litigation team.",
+      "postedAt": 1785520112884,
+      "postedById": "seed-employer",
+      "postedByName": "Demo Employer"
+    },
+    {
+      "id": "seed-11",
+      "title": "Security Analyst",
+      "company": "Nimbus Cloud Security",
+      "location": "Remote (US)",
+      "type": "Full-time",
+      "salary": "$95k–$120k",
+      "salaryMin": 95,
+      "salaryMax": 120,
+      "shift": "Rotating",
+      "vacancies": 3,
+      "tags": [
+        "security",
+        "siem",
+        "cloud"
+      ],
+      "apply": "https://nimbuscloud.example/careers/security-analyst",
+      "description": "Triage alerts across a SIEM covering 400+ cloud accounts.",
+      "postedAt": 1785512912884,
+      "postedById": "seed-employer",
+      "postedByName": "Demo Employer"
+    },
+    {
+      "id": "seed-12",
+      "title": "Agronomy Field Technician",
+      "company": "Greenfield Agritech",
+      "location": "Fresno, CA",
+      "type": "Full-time",
+      "salary": "$48k–$56k",
+      "salaryMin": 48,
+      "salaryMax": 56,
+      "shift": "Day",
+      "vacancies": 6,
+      "tags": [
+        "agriculture",
+        "fieldwork"
+      ],
+      "apply": "careers@greenfieldagritech.example",
+      "description": "Collect soil and crop-health samples across partner farms.",
+      "postedAt": 1785505712884,
+      "postedById": "seed-employer",
+      "postedByName": "Demo Employer"
+    },
+    {
+      "id": "seed-13",
+      "title": "Gameplay Programmer",
+      "company": "PixelForge Games",
+      "location": "Remote (EU)",
+      "type": "Full-time",
+      "salary": "€55k–€75k",
+      "salaryMin": 55,
+      "salaryMax": 75,
+      "shift": "Flexible",
+      "vacancies": 2,
+      "tags": [
+        "gamedev",
+        "c++",
+        "unity"
+      ],
+      "apply": "jobs@pixelforge.example",
+      "description": "Ship combat and traversal systems for a co-op action title.",
+      "postedAt": 1785484112884,
+      "postedById": "seed-employer",
+      "postedByName": "Demo Employer"
+    },
+    {
+      "id": "seed-14",
+      "title": "CNC Machinist",
+      "company": "Northgate Manufacturing",
+      "location": "Detroit, MI",
+      "type": "Full-time",
+      "salary": "$52k–$64k",
+      "salaryMin": 52,
+      "salaryMax": 64,
+      "shift": "Night",
+      "vacancies": 8,
+      "tags": [
+        "manufacturing",
+        "cnc"
+      ],
+      "apply": "hr@northgatemfg.example",
+      "description": "Run and maintain 5-axis CNC mills producing precision parts.",
+      "postedAt": 1785476912884,
+      "postedById": "seed-employer",
+      "postedByName": "Demo Employer"
+    },
+    {
+      "id": "seed-15",
+      "title": "Front Desk Associate",
+      "company": "Sable & Finch Hospitality",
+      "location": "Miami, FL",
+      "type": "Part-time",
+      "salary": "$16/hr",
+      "salaryMin": null,
+      "salaryMax": null,
+      "shift": "Rotating",
+      "vacancies": 5,
+      "tags": [
+        "hospitality",
+        "front-desk"
+      ],
+      "apply": "careers@sableandfinch.example",
+      "description": "Be the first face guests see at a 120-room boutique hotel.",
+      "postedAt": 1785462512884,
+      "postedById": "seed-employer",
+      "postedByName": "Demo Employer"
+    },
+    {
+      "id": "seed-16",
+      "title": "Junior Accountant",
+      "company": "Ledgerline Accounting",
+      "location": "Remote (US)",
+      "type": "Full-time",
+      "salary": "$50k–$62k",
+      "salaryMin": 50,
+      "salaryMax": 62,
+      "shift": "Day",
+      "vacancies": 3,
+      "tags": [
+        "accounting",
+        "finance"
+      ],
+      "apply": "jobs@ledgerline.example",
+      "description": "Handle monthly close support for a portfolio of small-business clients.",
+      "postedAt": 1785448112884,
+      "postedById": "seed-employer",
+      "postedByName": "Demo Employer"
+    },
+    {
+      "id": "seed-17",
+      "title": "Mechanical Design Engineer",
+      "company": "OrbitalWorks Aerospace",
+      "location": "Huntsville, AL",
+      "type": "Full-time",
+      "salary": "$85k–$105k",
+      "salaryMin": 85,
+      "salaryMax": 105,
+      "shift": "Day",
+      "vacancies": 2,
+      "tags": [
+        "aerospace",
+        "cad",
+        "mechanical"
+      ],
+      "apply": "careers@orbitalworks.example",
+      "description": "Design brackets and fixtures for small-satellite payload integration.",
+      "postedAt": 1785433712884,
+      "postedById": "seed-employer",
+      "postedByName": "Demo Employer"
+    },
+    {
+      "id": "seed-18",
+      "title": "Line Cook",
+      "company": "BrewHouse Collective",
+      "location": "Portland, OR",
+      "type": "Part-time",
+      "salary": "$19/hr",
+      "salaryMin": null,
+      "salaryMax": null,
+      "shift": "Night",
+      "vacancies": 6,
+      "tags": [
+        "culinary",
+        "kitchen"
+      ],
+      "apply": "kitchen@brewhousecollective.example",
+      "description": "Work the line at a busy gastropub kitchen.",
+      "postedAt": 1785419312884,
+      "postedById": "seed-employer",
+      "postedByName": "Demo Employer"
+    },
+    {
+      "id": "seed-19",
+      "title": "Curriculum Developer",
+      "company": "Trellis Education",
+      "location": "Remote (Any)",
+      "type": "Contract",
+      "salary": "$45/hr",
+      "salaryMin": null,
+      "salaryMax": null,
+      "shift": "Flexible",
+      "vacancies": 2,
+      "tags": [
+        "education",
+        "instructional-design"
+      ],
+      "apply": "jobs@trelliseducation.example",
+      "description": "Write and revise middle-school math modules for an adaptive learning platform.",
+      "postedAt": 1785404912884,
+      "postedById": "seed-employer",
+      "postedByName": "Demo Employer"
+    },
+    {
+      "id": "seed-20",
+      "title": "Claims Adjuster",
+      "company": "Ironclad Insurance",
+      "location": "Columbus, OH (Hybrid)",
+      "type": "Full-time",
+      "salary": "$54k–$66k",
+      "salaryMin": 54,
+      "salaryMax": 66,
+      "shift": "Day",
+      "vacancies": 5,
+      "tags": [
+        "insurance",
+        "claims"
+      ],
+      "apply": "careers@ironcladinsurance.example",
+      "description": "Review and process auto claims end-to-end.",
+      "postedAt": 1785390512884,
+      "postedById": "seed-employer",
+      "postedByName": "Demo Employer"
+    },
+    {
+      "id": "seed-21",
+      "title": "Automotive Technician",
+      "company": "DriftLine Auto",
+      "location": "San Antonio, TX",
+      "type": "Full-time",
+      "salary": "$22/hr",
+      "salaryMin": null,
+      "salaryMax": null,
+      "shift": "Rotating",
+      "vacancies": 7,
+      "tags": [
+        "automotive",
+        "repair"
+      ],
+      "apply": "hire@driftlineauto.example",
+      "description": "Diagnose and repair a mix of domestic and import vehicles.",
+      "postedAt": 1785376112884,
+      "postedById": "seed-employer",
+      "postedByName": "Demo Employer"
+    },
+    {
+      "id": "seed-22",
+      "title": "Program Coordinator",
+      "company": "Beacon Nonprofit Alliance",
+      "location": "Seattle, WA",
+      "type": "Full-time",
+      "salary": "$48k–$58k",
+      "salaryMin": 48,
+      "salaryMax": 58,
+      "shift": "Day",
+      "vacancies": 2,
+      "tags": [
+        "nonprofit",
+        "program-management"
+      ],
+      "apply": "jobs@beaconalliance.example",
+      "description": "Coordinate volunteer scheduling and grant reporting.",
+      "postedAt": 1785361712884,
+      "postedById": "seed-employer",
+      "postedByName": "Demo Employer"
+    },
+    {
+      "id": "seed-23",
+      "title": "Site Safety Officer",
+      "company": "Quarrystone Construction",
+      "location": "Salt Lake City, UT",
+      "type": "Full-time",
+      "salary": "$60k–$72k",
+      "salaryMin": 60,
+      "salaryMax": 72,
+      "shift": "Day",
+      "vacancies": 3,
+      "tags": [
+        "construction",
+        "safety"
+      ],
+      "apply": "careers@quarrystone.example",
+      "description": "Run daily safety walkthroughs across two active commercial sites.",
+      "postedAt": 1785347312884,
+      "postedById": "seed-employer",
+      "postedByName": "Demo Employer"
+    },
+    {
+      "id": "seed-24",
+      "title": "Podcast Audio Editor",
+      "company": "EchoWave Media",
+      "location": "Remote (Global)",
+      "type": "Contract",
+      "salary": "$35/hr",
+      "salaryMin": null,
+      "salaryMax": null,
+      "shift": "Flexible",
+      "vacancies": 4,
+      "tags": [
+        "audio",
+        "editing",
+        "media"
+      ],
+      "apply": "jobs@echowavemedia.example",
+      "description": "Edit and master weekly interview episodes across three shows.",
+      "postedAt": 1785332912884,
+      "postedById": "seed-employer",
+      "postedByName": "Demo Employer"
+    }
+  ],
+  "applications": [
+    {
+      "id": "a643fb74-ccc6-4e4c-bb09-f627e5c396fd",
+      "jobId": "seed-1",
+      "jobTitle": "Senior Backend Engineer",
+      "company": "Harborlight Systems",
+      "applicantId": "ae2a7da6-f6a5-4cd9-b4b4-510ef7dec003",
+      "name": "Charanya Karne",
+      "email": "charanya@example.com",
+      "phone": "9876543210",
+      "coverNote": "I want to apply for this job.",
+      "resumeFilename": "res.pdf",
+      "resumeSize": 8184,
+      "resumeDataUrl": "data:application/pdf;base64,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b2JqCjw8IC9UeXBlIC9DYXRhbG9nIC9QYWdlcyAyIDAgUiAvTWFya0luZm8gPDwgL01hcmtlZCB0cnVlID4+IC9TdHJ1Y3RUcmVlUm9vdAoxMCAwIFIgPj4KZW5kb2JqCjcgMCBvYmoKWyAxIDAgUiAgL1hZWiAwIDg0MS44OSAwIF0KZW5kb2JqCjYgMCBvYmoKPDwgL1R5cGUgL0ZvbnQgL1N1YnR5cGUgL1RydWVUeXBlIC9CYXNlRm9udCAvQUFBQUFCK0hlbHZldGljYU5ldWUgL0ZvbnREZXNjcmlwdG9yCjE1IDAgUiAvRW5jb2RpbmcgL01hY1JvbWFuRW5jb2RpbmcgL0ZpcnN0Q2hhciAzMiAvTGFzdENoYXIgMTIxIC9XaWR0aHMgWyAyNzgKMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCA3MjIgMAowIDAgMCAwIDAgMCA2NjcgMCAwIDAgMCAwIDAgMCAwIDU3NCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCA1MzcgMCAwIDAgNTM3CjI5NiAwIDU1NiAyMjIgMCAwIDAgODUzIDU1NiA1NzQgMCAwIDMzMyA1MDAgMCA1NTYgMCAwIDAgNTAwIF0gPj4KZW5kb2JqCjE1IDAgb2JqCjw8IC9UeXBlIC9Gb250RGVzY3JpcHRvciAvRm9udE5hbWUgL0FBQUFBQitIZWx2ZXRpY2FOZXVlIC9GbGFncyAzMiAvRm9udEJCb3gKWy05NTEgLTQ4MSAxOTg3IDEwNzddIC9JdGFsaWNBbmdsZSAwIC9Bc2NlbnQgOTUyIC9EZXNjZW50IC0yMTMgL0NhcEhlaWdodAo3MTQgL1N0ZW1WIDk1IC9MZWFkaW5nIDI4IC9YSGVpZ2h0IDUxNyAvU3RlbUggODAgL0F2Z1dpZHRoIDQ0NyAvTWF4V2lkdGggMjIyNQovRm9udEZpbGUyIDE2IDAgUiA+PgplbmRvYmoKMTYgMCBvYmoKPDwgL0xlbmd0aDEgNTE3MiAvTGVuZ3RoIDI5OTMgL0ZpbHRlciAvRmxhdGVEZWNvZGUgPj4Kc3RyZWFtCngBrVhtbFvVGX7Puf6K48S58WfixB+5sZ04TmzHsWM3TeK2cZcQ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",
+      "status": "Review",
+      "appliedAt": 1785598723714
+    },
+    {
+      "id": "fbf6ca5b-9125-4d6d-9dc3-5e4df010baa3",
+      "jobId": "4a8d4353-1968-415e-a19c-9e1a20f5c03c",
+      "jobTitle": "Data Analyst Intern",
+      "company": "KC Group",
+      "applicantId": "ae2a7da6-f6a5-4cd9-b4b4-510ef7dec003",
+      "name": "Charanya Karne",
+      "email": "charanya@example.com",
+      "phone": "9876543210",
+      "coverNote": "I am eligible for this job.",
+      "resumeFilename": "res.pdf",
+      "resumeSize": 8184,
+      "resumeDataUrl": "data:application/pdf;base64,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b2JqCjw8IC9UeXBlIC9DYXRhbG9nIC9QYWdlcyAyIDAgUiAvTWFya0luZm8gPDwgL01hcmtlZCB0cnVlID4+IC9TdHJ1Y3RUcmVlUm9vdAoxMCAwIFIgPj4KZW5kb2JqCjcgMCBvYmoKWyAxIDAgUiAgL1hZWiAwIDg0MS44OSAwIF0KZW5kb2JqCjYgMCBvYmoKPDwgL1R5cGUgL0ZvbnQgL1N1YnR5cGUgL1RydWVUeXBlIC9CYXNlRm9udCAvQUFBQUFCK0hlbHZldGljYU5ldWUgL0ZvbnREZXNjcmlwdG9yCjE1IDAgUiAvRW5jb2RpbmcgL01hY1JvbWFuRW5jb2RpbmcgL0ZpcnN0Q2hhciAzMiAvTGFzdENoYXIgMTIxIC9XaWR0aHMgWyAyNzgKMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCA3MjIgMAowIDAgMCAwIDAgMCA2NjcgMCAwIDAgMCAwIDAgMCAwIDU3NCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCA1MzcgMCAwIDAgNTM3CjI5NiAwIDU1NiAyMjIgMCAwIDAgODUzIDU1NiA1NzQgMCAwIDMzMyA1MDAgMCA1NTYgMCAwIDAgNTAwIF0gPj4KZW5kb2JqCjE1IDAgb2JqCjw8IC9UeXBlIC9Gb250RGVzY3JpcHRvciAvRm9udE5hbWUgL0FBQUFBQitIZWx2ZXRpY2FOZXVlIC9GbGFncyAzMiAvRm9udEJCb3gKWy05NTEgLTQ4MSAxOTg3IDEwNzddIC9JdGFsaWNBbmdsZSAwIC9Bc2NlbnQgOTUyIC9EZXNjZW50IC0yMTMgL0NhcEhlaWdodAo3MTQgL1N0ZW1WIDk1IC9MZWFkaW5nIDI4IC9YSGVpZ2h0IDUxNyAvU3RlbUggODAgL0F2Z1dpZHRoIDQ0NyAvTWF4V2lkdGggMjIyNQovRm9udEZpbGUyIDE2IDAgUiA+PgplbmRvYmoKMTYgMCBvYmoKPDwgL0xlbmd0aDEgNTE3MiAvTGVuZ3RoIDI5OTMgL0ZpbHRlciAvRmxhdGVEZWNvZGUgPj4Kc3RyZWFtCngBrVhtbFvVGX7Puf6K48S58WfixB+5sZ04TmzHsWM3TeK2cZcQ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",
+      "status": "Review",
+      "appliedAt": 1785599057193
+    }
+  ],
+  "saved": [
+    {
+      "userId": "ae2a7da6-f6a5-4cd9-b4b4-510ef7dec003",
+      "jobId": "4a8d4353-1968-415e-a19c-9e1a20f5c03c"
+    }
+  ],
+  "trashed": [],
+  "history": [
+    {
+      "userId": "ae2a7da6-f6a5-4cd9-b4b4-510ef7dec003",
+      "jobId": "seed-1",
+      "jobTitle": "Senior Backend Engineer",
+      "company": "Harborlight Systems",
+      "viewedAt": 1785598623401
+    },
+    {
+      "userId": "ae2a7da6-f6a5-4cd9-b4b4-510ef7dec003",
+      "jobId": "4a8d4353-1968-415e-a19c-9e1a20f5c03c",
+      "jobTitle": "Data Analyst Intern",
+      "company": "KC Group",
+      "viewedAt": 1785599136533
+    }
+  ],
+  "profiles": []
+}
