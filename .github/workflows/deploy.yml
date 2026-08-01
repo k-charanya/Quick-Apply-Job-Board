@@ -23,6 +23,7 @@ jobs:
 
       - name: Run Tests
         run: npm test --if-present
+        working-directory: ./backend
 
   deploy-to-vercel:
     needs: ci-pipeline
