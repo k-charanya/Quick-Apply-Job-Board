@@ -38,13 +38,13 @@ jobs:
         run: npm install --global vercel@latest
 
       - name: Pull Vercel Environment Information
-        run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+        run: vercel pull --yes --environment=production --token=${{ secrets.Vercel_Token }}
 
       - name: Build Project Artifacts
-        run: vercel build --production --token=${{ secrets.VERCEL_TOKEN }}
+        run: vercel build --production --token=${{ secrets.Vercel_Token }}
 
       - name: Deploy to Vercel Production
-        run: vercel deploy --prebuilt --production --token=${{ secrets.VERCEL_TOKEN }}
+        run: vercel deploy --prebuilt --production --token=${{ secrets.Vercel_Token }}
         env:
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          VERCEL_ORG_ID: ${{ secrets.Vercel_Org_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.Vercel_Project_ID }}
