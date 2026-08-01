@@ -19,6 +19,7 @@ jobs:
 
       - name: Install Dependencies
         run: npm install
+        working-directory: ./backend
 
       - name: Run Tests
         run: npm test --if-present
